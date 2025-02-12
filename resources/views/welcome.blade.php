@@ -17,6 +17,15 @@
             <a href="/create" class="bg-green-600 text-white rounded py-2 px-4">Add New Post</a>
 
         </div>
+        <div id="app">
+
+            @include('flash-message')
+
+
+
+            @yield('content')
+
+        </div>
 
     </div>
 
