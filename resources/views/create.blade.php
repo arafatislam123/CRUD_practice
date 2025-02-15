@@ -17,7 +17,7 @@
         </div>
 
         <div>
-            <form action="{{route('store')}}" method="POST">
+            <form action="{{ route('store') }}" method="POST" enctype="multipart/form-data">
                 <div class="flex flex-col gap-5">
                     @csrf
                     @if ($errors->any())
